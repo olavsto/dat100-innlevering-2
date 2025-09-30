@@ -5,10 +5,10 @@ public class Tabeller {
 	// a)
 	public static void skrivUt(int[] tabell) {
 
-		int[] tabell = {1, 2, 3, 4, 5};
-
-		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
-
+        for (int i = 0; i < tabell.length; i++) {
+            System.out.println(" " + tabell[i]);
+        }
+        System.out.println();
 	}
 
 	// b)
@@ -16,6 +16,8 @@ public class Tabeller {
 
         String tabell = tabell;
         int[] tabell = {42, 67, 89};
+
+        System.out.println();
 
 		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
 	}
