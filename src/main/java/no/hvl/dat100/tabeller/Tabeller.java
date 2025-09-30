@@ -5,7 +5,8 @@ public class Tabeller {
 	// a)
 	public static void skrivUt(int[] tabell) {
 
-		// TODO
+		int[] tabell = {1, 2, 3, 4, 5};
+
 		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
 
 	}
@@ -13,7 +14,9 @@ public class Tabeller {
 	// b)
 	public static String tilStreng(int[] tabell) {
 
-		// TODO
+        String tabell = tabell;
+        int[] tabell = {42, 67, 89};
+
 		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
 	}
 
