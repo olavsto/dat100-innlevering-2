@@ -48,7 +48,7 @@ public class Tabeller {
 
 	// g)
 	public static boolean erSortert(int[] tabell) {
-
+        //abc
 		// TODO
 		throw new UnsupportedOperationException("Metoden erSortert ikke implementert");
 	}
